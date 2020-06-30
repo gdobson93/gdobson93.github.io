@@ -1,83 +1,73 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
+/*About Me Styles*/
 
 body {
-  /* Box-model */
-  padding: 0;
-
-  /* Positioning */
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-
-  /* Typography */
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-
-  /* Visual */
-  background: #efeee7;
+  background-color: #7395ae;
 }
 
-header {
-  background: #d21034;
+.app {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
 }
 
-h1 {
-  /* Box-model */
-  padding: 20px 0;
-
-  /* Positioning */
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-
-  /* Typography */
-  color: #eee;
-  text-align: center;
-
-  /* Visual */
-  background: #333;
+.background {
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 1.25em;
+  font-family: 'Merriweather', serif;
+  
 }
 
-h2 {
-  font-size: 24px;
+.bio {
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
 }
 
-a {
-  color: #d21034;
+.career {
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.25em;
 }
 
-.container {
-  /* Box-model */
-  width: 1024px;
-
-  /* Positioning */
-  margin: 0 auto;
+.col {
+  margin-top: 30px;
 }
 
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
+.education {
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
 }
 
-#main-bio {
-  width: 70%;
+.linkedin {
+  border-radius: 100%;
+  height: auto;
+  width: 100%;
+  margin-left: 30px;
 }
 
-#contact-info {
-  width: 30%;
+.unc {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
 }
 
-#bio-image {
-  /* Box-model */
-  width: 200px;
-  height: 200px;
+/*Portfolio Styles*/
 
-  /* Positioning */
-
-  margin-right: 20px;
+.code-refractor {
+  height: 300px;
+  margin-left: 30px;
 }
+
+.logo {
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*Contact Styles*/
