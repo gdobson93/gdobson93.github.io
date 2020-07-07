@@ -60,11 +60,14 @@ body {
 
 .code-refractor {
   height: 300px;
-  margin-left: 30px;
+  width: 400px;
+  float: left;
 }
 
 .css-site {
   height: 300px;
+  width: 400px;
+  float: right;
 }
 
 .logo {
@@ -72,6 +75,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+/*
+@media screen and (max-width: 768px) {
+  background-color: #333;
+}
+
+.css-site {
+  width: 100%;
+  padding: 20px;
+}
+
+.code-refractor {
+  vertical-align: middle;
 }
 
 /*Contact Styles*/
