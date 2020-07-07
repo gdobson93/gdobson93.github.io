@@ -63,6 +63,10 @@ body {
   margin-left: 30px;
 }
 
+.css-site {
+  height: 300px;
+}
+
 .logo {
   height: 40px;
   margin-left: auto;
