@@ -1,75 +1,136 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+main {
+  width: 90vw;
+  min-height: calc(100vh - 1518px - 118px);
+}
+
+ul {
+  border: none;
+}
+
+footer {
+  flex: 0 0 auto;
+  padding: 15px 0 25px;
+  color: #fff;
+  text-align: center;
+  background: #343a40;
+  border-top: 4px solid white;
+  box-shadow: 0 5px 8px 5px #333;
+  width: 100%;
+  line-height: 2px;
+  text-size-adjust: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer a {
+  color: white;
+}
+
+.social-links {
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+
 /*About Me Styles*/
 
 body {
   background-color: #7395ae;
 }
 
-.app {
-  margin-top: 40px;
-  font-size: 20px;
-  font-family: 'Merriweather', serif;
-}
-
-.background {
-  font-size: 20px;
-  margin-top: 30px;
-  line-height: 1.25em;
-  font-family: 'Merriweather', serif;
-  
-}
-
-.bio {
-  font-size: 30px;
-  text-decoration: underline;
-  font-weight: bold;
-  font-family: 'Merriweather', serif;
-}
-
-.career {
-  font-size: 20px;
-  margin-top: 30px;
-  font-family: 'Merriweather', serif;
-  line-height: 1.25em;
-}
-
-.col {
-  margin-top: 30px;
-}
-
-.education {
-  font-size: 30px;
-  text-decoration: underline;
-  font-weight: bold;
-  font-family: 'Merriweather', serif;
-}
-
 .linkedin {
   border-radius: 100%;
   height: auto;
-  width: 100%;
-  margin-left: 30px;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
-.unc {
-  margin-top: 40px;
-  font-size: 20px;
-  font-family: 'Merriweather', serif;
+.card {
+  width: 35%;
+  text-align: center;
+  display: block;
+  margin: 20px auto auto;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card-text {
+  font-size: 16px;
 }
 
 /*Portfolio Styles*/
 
 .code-refractor {
-  height: 300px;
-  width: 400px;
-  float: left;
+  height: auto;
+  width: 60%;
   margin-left: 30px;
+  margin-top: 30px;
 }
 
 .css-site {
-  height: 300px;
-  width: 400px;
-  float: right;
-  margin-right: 30px;
+  height: auto;
+  width: 60%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.gallivant {
+  height: auto;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.pw-gen {
+  height: auto;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.code-quiz {
+  height: auto;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.workday-scheduler {
+  height: auto;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.weather {
+  height: auto;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .logo {
@@ -80,20 +141,40 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  background-color: #333;
-}
 
-.css-site {
-  width: 100%;
-  padding: 20px;
 }
-
-.code-refractor {
-  vertical-align: middle;
-}
-
 /*Contact Styles*/
 
-.copyright {
+.contact-form {
+  border: 10px;
+  padding: 10px;
   text-align: center;
+}
+
+.form-control {
+  width: 30%;
+  display: inline;
+  margin-top: 20px;
+}
+
+label {
+  padding: 20px;
+  font-size: 20px;
+}
+
+#checkbox1 {
+  float: inline-start;
+}
+
+.submit-btn {
+  width: 200px;
+  height: 50px;
+}
+
+#textarea {
+  width: 20%;
+  height: 100px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
 }

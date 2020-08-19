@@ -20,7 +20,7 @@
 
   </head>
 
-  <body>
+  <body class="wrapper">
 
     <header>
       <!--Navbar-->
@@ -51,34 +51,47 @@
     </header>
 
     <main>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <input type="text" id="textarea">
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Subscribe to my Development Newsletter</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="message"></label>
+            <input type="text" id="textarea" placeholder="Enter Message">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="checkbox1">
+            <label class="form-check-label" for="exampleCheck1">Subscribe to my Development Newsletter</label>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+        </form>
+  
+      </div>
+      
     </main>
     
     <footer>
-      <div class="container6">
-        <div class="row">
-          <div class="col col=lg-12">
-            <a href="https://www.linkedin.com/in/garrett-dobson-48566ba5/" target="_blank">
-              <img class="logo" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG9.png" alt="Linkedin logo">
-            </a>
-          </div>
-        </div>
+      <div class="contact">
+        |
+        <a href="mailto:garrettdobson33@gmail.com" class="btn-floating btn-lg btn-email" type="button" role="button">
+          <i class="fas fa-envelope"></i> garrettdobson33@gmail.com</a>
+        |
       </div>
-      <p class="copyright">© 2020 Garrett Dobson.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/garrett-dobson" target="_blank" class="btn-floating btn-lg btn-linkedin"
+          type="button" role="button">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/gdobson93" target="_blank" class="btn-floating btn-lg btn-github" type="button"
+          role="button">
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="copyright">
+        Copyright &copy; 2020 Garrett Dobson
+      </div>
     </footer>
     
 
