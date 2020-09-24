@@ -2,7 +2,6 @@
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
-
 ## Directions
 
 First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
@@ -87,3 +86,7 @@ You are required to submit the following:
 - - -
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+/Users/garrettdobson/Desktop/bootcamp-2020/github-projects/class-homework/hw-2-personal-portfolio.io/Garrett Dobson _ Web Developer.gif
+
+/Users/garrettdobson/Desktop/bootcamp-2020/github-projects/class-homework/hw-2-personal-portfolio.io/Garrett Dobson _ Web Developer.mp4
