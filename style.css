@@ -74,13 +74,12 @@ body {
   color: #fff;
 }
 
-.card-title {
-  font-size: 25px;
+.coding-lang {
+  text-align: left;
 }
 
-.card-text {
-  font-size: 16px;
-  width: 50%;
+.lang-title {
+  text-align: center;
 }
 
 /*Portfolio Styles*/
@@ -159,23 +158,19 @@ body {
   text-align: center;
 }
 
+.form-group1 {
+  width: 80%;
+  display: inline;
+}
+
 .form-control {
   width: 30%;
   display: inline;
-  margin-top: 20px;
-}
-
-label {
-  padding: 20px;
-  font-size: 20px;
-}
-
-#checkbox1 {
-  float: inline-start;
+  margin: 20px;
 }
 
 .submit-btn {
-  width: 200px;
+  width: 100px;
   height: 50px;
 }
 
@@ -184,5 +179,5 @@ label {
   height: 100px;
   text-align: center;
   font-size: 18px;
-  margin-top: 10px;
+  margin: 20px;
 }
